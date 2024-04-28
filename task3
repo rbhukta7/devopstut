@@ -1,0 +1,11 @@
+Task 3.
+
+Get me IP address of particular domain (guvi.in) 
+- Attached screenshot in PR.
+
+How do I find my CPU/memory usage of my server? 
+- We can use "top" to check cpu usage of a server.
+- We can use "vm_stat" to check the memory consumption. Would like to add we can use commands like "kubectl top nodes/pods" to get both cpu and memory usage of the nodes/pods.
+
+Test the connectivity between 2 nodes? I have deployed an application in guvi.com:9000, and logs shows my app is running, but I’m unable to view the page. Check whether my port is open or not ?
+- The port is closed as the command nc -zv guvi.com 9000 output returns operation timed out. Attached ref screenshot in PR.
